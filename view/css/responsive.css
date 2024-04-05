@@ -1,0 +1,213 @@
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    header{
+        line-height: 36px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #F5F5F2;
+        display: none;
+      }
+     .logo1{
+      width: 40px;
+      margin-top: 10px;
+     }
+     
+      .auto92{
+        width: 92%;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        height: 60px;
+        text-align: center;
+      }
+      .box-2 {
+        display: none;
+        
+      }
+      nav{
+        top: 0;
+        position: relative;
+        z-index: 2;
+      }
+      nav .logo2{
+        width: 200px;
+        height: 60px;
+       
+      }
+      .logo2 img{
+        width:200px;  
+        object-fit: cover;
+       
+      }
+      .timkiem{
+        display: none;
+       
+       
+      }
+    
+    .iconhiden{
+        display: block;
+
+    }
+    
+    .iconhiden{
+        border-radius: 100%;
+        
+        
+        }
+    .pd10{
+      padding-left: 10px;
+    }
+    .iconhiden i{  
+        color: #111111;
+        width: 36px;
+        line-height: 36px;
+        font-size: 24px;
+    }
+    .iconhiden i:hover{
+        background: rgb(224, 221, 221);
+        border-radius: 100%;
+       
+    }
+    .box-2-1{
+      display: block;
+      width: 36px;
+      height: 36px;
+      
+  
+    }
+   /*  .bagach{
+      width: 20px;
+      height: 2px;
+      background-color: black;
+      margin: 4px 0;
+     }
+    */
+    .box-2-1 button{
+       
+       background-color: white;
+       border: none;
+       border-radius: 100%;
+       width: 36px;
+       height: 36px;
+       
+    }
+    .box-2-1 button i{
+      color: black;
+      display: block;
+      padding-top: 4px;
+      padding-right: 4px;
+      /*  background-color: white;
+       border: none; */
+       
+       font-size: 26px;
+    }
+    .box-2-1 >button:hover {
+      background-color: rgb(224, 221, 221);
+      
+   }
+    .thongtin{
+        width: 92%;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+    .thongtin1{
+            margin-top: 30px;
+            text-align: center;
+
+            }
+      .khung{
+            background-color: #fff;
+            width: 62%;
+            margin-right: 0px;
+            height: 100%;
+          
+        }
+      .khung button{
+           border: none;
+           background-color: #fff;
+           border-radius: 100%;
+           width: 30px;
+           height: 30px;
+           
+           color: black;
+           font-size: 24px;
+        }
+        .close{
+            margin-right: 20px;
+        }
+        .khung i{
+          color: #111111;
+          width: 30px;
+          line-height: 30px;
+          font-size: 20px;
+        }
+        .khung button:hover{
+            
+            background-color: #ccc;
+            
+         }
+         .box-all{
+            display: block;
+         }
+        .box-2-1-2 {
+            display: none;
+            position:fixed;
+            
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+          
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.4);
+}
+          
+          
+          .close{
+            display:grid;
+            width: 90%;
+            
+          }
+          .close button{
+           margin-right: 0px;
+           margin-top: 10px;
+          }
+         
+          .box-2-1-2 ul{       
+           height: 200px;
+           
+          }
+          .box-2-1-2 ul li{
+          
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            list-style: none;
+            margin-top: 20px;
+          }
+          .box-2-1-2 ul li button{
+            margin-right: 15%;
+          }
+          .box-2-1-2 ul li a{
+            margin-left: 0px;
+            width: 80%;
+            font-size: 24px;
+            color: black;
+            text-decoration: none;
+          }
+          .chuy{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+          }
+          .btn_danhmuc{
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            width: 130px;
+            height: 40px;
+            border-radius: 40px;
+            font-size: 16px;
+            margin-top: -70px;
+            margin-left: 20px;
+           }
+         
+}
