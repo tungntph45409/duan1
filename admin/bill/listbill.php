@@ -40,8 +40,7 @@
                 <td><strong>' . $bill["total"] . '</strong> VNĐ</td>
                 <td>' . $ttdh . '<a href="' . $suabill . '"><input type="button" value="cập nhật" class="gr"></a></td>
                 <td>' . $bill["ngaydathang"] . '</td>
-                <td> <a href="' . $xoabill . '"><input type="button" value="Xóa" class="re"></a></td>
-                
+                <td> <a href="' . $xoabill . '"><input type="button" value="xóa" class="re"></a></td>
                 </tr>';
             }
             ?>

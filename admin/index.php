@@ -338,7 +338,6 @@ case 'xoasize':
                                 }
                                     include "taikhoan/update.php";
                                     break;
-                                    
             case 'updatetk':
                                    if(isset($_POST['capnhat'])&&($_POST['capnhat'])){
                                         $user=$_POST['user'];
